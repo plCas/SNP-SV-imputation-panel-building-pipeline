@@ -5,7 +5,6 @@
 CHR=$1 # chromosome 2 
 DIR=/qnap-wlee/wanpingleelab/chengp/36K_panel_build/vcfs/phased/chr$CHR
 
-#LENGTH=$2 # full length of chromosome 2 : 243000000 bp 
 readarray REGIONS < /qnap-wlee/wanpingleelab/chengp/36K_panel_build/test_region_overlap/chr$CHR.chunk.txt
 
 

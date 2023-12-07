@@ -79,7 +79,7 @@ print(f"{len(start_pos)} {len(end_pos)}")
 for i, i2 in zip(start_pos, end_pos):
     print(f"chr{CHR}:{i}-{i2}\n")
 
-#with open(f"{DIR}/chr{CHR}.chunk.txt", "w") as file:
-#    for i, i2 in zip(start_pos, end_pos):
-#        file.write(f"chr{CHR}:{i}-{i2}\n")
+with open(f"{DIR}/chr{CHR}.chunk.txt", "w") as file:
+    for i, i2 in zip(start_pos, end_pos):
+        file.write(f"chr{CHR}:{i}-{i2}\n")
 

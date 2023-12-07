@@ -1,3 +1,4 @@
+#!/bin/bash
 CHR=$1
 VCF=/s3buckets/GCADCOREBdatasets/PVCF-storage/pVCF-2023/QC-36k/compact-filtered/fixedAF/biallelic/gcad.qc.compact_filtered.r4.wgs.36361.GATK.2022.08.15.biallelic.genotypes.chr$CHR.ALL.vcf.bgz
 
