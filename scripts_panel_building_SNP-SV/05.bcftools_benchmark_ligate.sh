@@ -1,12 +1,4 @@
 #!/bin/bash
-#
-#SBATCH --job-name=bcftools_benchmark_ligate
-#SBATCH -o /qnap-wlee/wanpingleelab/chengp/impute_sv/SNP-SV_panel_redo/scripts/tmp/bcftools_benchmark_ligate.%A_%a.txt
-#SBATCH -e /qnap-wlee/wanpingleelab/chengp/impute_sv/SNP-SV_panel_redo/scripts/tmp/bcftools_benchmark_ligate.error.%A_%a.txt
-#SBATCH --ntasks=1
-#SBATCH --partition=wleeq
-#SBATCH --qos=normal
-#SBATCH --cpus-per-task 2
 
 # Ligate the segments of the same chromosome together
 
