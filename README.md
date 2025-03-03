@@ -5,7 +5,7 @@ Pipeline Overview:
 
 # Dependencies
 [bcftools v 1.16](https://github.com/samtools/bcftools/tree/1.16) <br>
-[bedtools v2.26]([https://github.com/arq5x/bedtools2](https://github.com/arq5x/bedtools2/tree/v2.26.0)) <br>
+[bedtools v2.26](https://github.com/arq5x/bedtools2/tree/v2.26.0) <br>
 [IMMerge](https://github.com/belowlab/IMMerge) <br>
 Minimac3 <br>
 Minmac4 <br>
