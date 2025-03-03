@@ -16,7 +16,7 @@ Pipeline Overview:
 [PLINK 1.9](https://www.cog-genomics.org/plink/1.9) <br>
 
 # Build imputation panel <br>
-  1.	[Remove_related_samples](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/remove_related_samples) <br>
+  1.	[Remove_related_samples](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/remove_related_samples) <br>
   2.	Panel_building <br>
       a.	[ADSP-Short-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-Short-Var)<br>
     	b.	[ADSP-All-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-All-Var) <br>
