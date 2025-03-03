@@ -4,9 +4,9 @@ Pipeline Overview:
 ![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/142da040b92ab406bae589d64935c3663519cba9/Images/ADSP-Short_All-Var_panel_Workflow.png)
 
 # Dependencies
-Bcftools <br>
-Bedtools <br>
-IMMerge <br>
+[bcftools v 1.16](https://github.com/samtools/bcftools/tree/1.16) <br>
+[bedtools v2.26]([https://github.com/arq5x/bedtools2](https://github.com/arq5x/bedtools2/tree/v2.26.0)) <br>
+[IMMerge](https://github.com/belowlab/IMMerge) <br>
 Minimac3 <br>
 Minmac4 <br>
 Metaminimac2 <br>
