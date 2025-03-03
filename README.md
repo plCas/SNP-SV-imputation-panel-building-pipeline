@@ -1,25 +1,28 @@
-# SNP-SV-imputation-panel-building-pipeline
+# ADSP-Short-Var, ADSP-All-Var imputation panels
 
 Pipeline Overview:
 ![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/main/Images/Overview.png?raw=true "Title")
 
+# Dependencies
+Bcftools
+Bedtools
+IMMerge
+Minimac3
+Minmac4
+Metaminimac2
+aggRsquare
+SHAPEIT4
+GENESIS
+Plink 1.9
 
-Step1 Remove related samples, calculate PCA and HWE before filtering variants:
-![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/main/Images/Step1.png?raw=true "Title")
+# Build imputation panel
+  1.	Remove_related_samples
+  2.	Panel_building
+    a.	ADSP-Short-Var
+    b.	ADSP-All-Var
 
-Scripts are in scripts_calculate_IBD_PCA folder 
-
-
-
-
-
-Step2 for building SNP-only reference panel :
-![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/main/Images/Step2_SNP-only.png?raw=true "Title")
-Scripts labeled with "*" denote dependent script but do not need to run it directly. However, some paths in these scripts should also be specified if needed.
-
-
-
-
-
-Step2 for building SNP-SV reference panel:
-![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/main/Images/Step2_SNP-SV.png?raw=true "Title")
+# Analysis
+  1.	Imputation
+  2.	Meta-imputation
+  3.	WGS validation
+  4.	Single variant association test
