@@ -1,5 +1,7 @@
 #!/bin/bash
 
+R2_threshold=0.8
+
 OUT=/../WGS_validation/SV_validation/by_var/bed_files
 mkdir -p $OUT
 
@@ -7,7 +9,7 @@ VCF=/../all_sv.vcf.gz
 
 
 # first awk generate END position; second generate SVTYPE
-bcftools view -i "R2 > 0.8 && AC > 0" $VCF \
+bcftools view -i "R2 > $R2_threshold && AC > 0" $VCF \
     | bcftools query -f "%CHROM\t%POS\t%END\t%ALT[\t%GT]\n" \
     | awk -F'\t' 'BEGIN {OFS="\t"} {
 	if ($4 !~ /INS/) {
