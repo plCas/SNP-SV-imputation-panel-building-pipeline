@@ -1,14 +1,9 @@
 #!/bin/bash
 # generate .bed file for each sample
 # awk script check whether the SV is INS or not, if it was INS the svsize will be 0
-SLURM_ARRAY_TASK_ID=$1 # 0-5201 
 
 R2_Threshold=$1 # 0, 0.2, 0.5, 0.8
-# make bed file of each sample for imputed samples
-ID_MAP=/../36K_ADGC_WGSID_GWASID.txt
-Imp_samples=($(awk '{print $1}' $ID_MAP))
-
-sample_name_imp=${Imp_samples[$SLURM_ARRAY_TASK_ID]}
+sample_name_imp=$2
 
 TMP=/../WGS_validation/SV_validation/by_sample/bed_files/imputations/$R2_Threshold
 mkdir -p $TMP
