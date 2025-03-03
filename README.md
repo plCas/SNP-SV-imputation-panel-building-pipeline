@@ -22,7 +22,7 @@ Plink 1.9 <br>
     	b.	[ADSP-All-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/4e8553b194b417d1f173e7e1e237cd93618ed9d0/panel_building/ADSP-All-Var) <br>
 
 # Analysis <br>
-  1.	Imputation <br>
-  2.	Meta-imputation <br>
-  3.	WGS validation <br>
-  4.	Single variant association test <br>
+  1.	[Imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/imputation) <br>
+  2.	[Meta-imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/meta-imputation) <br>
+  3.	[WGS validation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/WGS%20validation) <br>
+  4.	[Single variant association test](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/single%20variant%20association%20test) <br>
