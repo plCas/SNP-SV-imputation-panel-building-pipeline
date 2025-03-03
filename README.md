@@ -18,11 +18,11 @@ Pipeline Overview:
 # Build imputation panel <br>
   1.	[Remove_related_samples](remove_related_samples) <br>
   2.	Panel_building <br>
-      a.	[ADSP-Short-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-Short-Var)<br>
-    	b.	[ADSP-All-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-All-Var) <br>
+      a.	[ADSP-Short-Var](panel_building/ADSP-Short-Var)<br>
+    	b.	[ADSP-All-Var](panel_building/ADSP-All-Var) <br>
 
 # Analysis <br>
-  1.	[Imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/imputation) <br>
-  2.	[Meta-imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/meta-imputation) <br>
-  3.	[WGS validation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/WGS%20validation) <br>
+  1.	[Imputation](imputation) <br>
+  2.	[Meta-imputation](meta-imputation) <br>
+  3.	[WGS validation](WGS%20validation) <br>
   4.	[Single variant association test](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/single%20variant%20association%20test) <br>
