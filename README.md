@@ -16,7 +16,7 @@ Pipeline Overview:
 [PLINK 1.9](https://www.cog-genomics.org/plink/1.9) <br>
 
 # Build imputation panel <br>
-  1.	[Remove_related_samples](remove_related_samples) <br>
+  1.	[remove_related_samples](remove_related_samples) <br>
   2.	Panel_building <br>
       a.	[ADSP-Short-Var](panel_building/ADSP-Short-Var)<br>
     	b.	[ADSP-All-Var](panel_building/ADSP-All-Var) <br>
