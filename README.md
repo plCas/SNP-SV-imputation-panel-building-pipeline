@@ -25,4 +25,4 @@ Pipeline Overview:
   1.	[Imputation](imputation) <br>
   2.	[Meta-imputation](meta-imputation) <br>
   3.	[WGS validation](WGS%20validation) <br>
-  4.	[Single variant association test](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/single%20variant%20association%20test) <br>
+  4.	[Single variant association test](single%20variant%20association%20test) <br>
