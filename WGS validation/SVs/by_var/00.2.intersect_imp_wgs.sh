@@ -1,4 +1,5 @@
 #!/bin/bash
+# intersect SVs between imputation and WGS for each sample
 
 imp_all_bed=$1
 wgs_all_bed=$2
