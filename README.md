@@ -1,6 +1,6 @@
 # ADSP-Short-Var, ADSP-All-Var imputation panels
 
-Pipeline Overview:
+## Pipeline Overview:
 ![alt text](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/blob/142da040b92ab406bae589d64935c3663519cba9/Images/ADSP-Short_All-Var_panel_Workflow.png)
 
 # Dependencies
