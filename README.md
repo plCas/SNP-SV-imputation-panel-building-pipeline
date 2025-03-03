@@ -7,13 +7,13 @@ Pipeline Overview:
 [bcftools v 1.16](https://github.com/samtools/bcftools/tree/1.16) <br>
 [bedtools v2.26](https://github.com/arq5x/bedtools2/tree/v2.26.0) <br>
 [IMMerge](https://github.com/belowlab/IMMerge) <br>
-Minimac3 <br>
-Minmac4 <br>
-Metaminimac2 <br>
-aggRsquare <br>
-SHAPEIT4 <br>
-GENESIS <br>
-Plink 1.9 <br>
+[Minimac3 v 2.0.1](https://github.com/Santy-8128/Minimac3?tab=readme-ov-file) <br>
+[Minimac4 v 4.1.0](https://github.com/statgen/Minimac4/tree/v4.1.0) <br>
+[MetaMinimac2 v 1.0.0](https://github.com/yukt/MetaMinimac2) <br>
+[aggRsquare](https://github.com/yukt/aggRSquare) <br>
+[SHAPEIT4 v 4.2.2](https://github.com/odelaneau/shapeit4)<br>
+[GENESIS](https://github.com/UW-GAC/GENESIS/tree/devel) <br>
+[PLINK 1.9](https://www.cog-genomics.org/plink/1.9) <br>
 
 # Build imputation panel <br>
   1.	[Remove_related_samples](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/f1f555d145959f1ec4505cc48e1cb0e5fd262614/remove_related_samples) <br>
