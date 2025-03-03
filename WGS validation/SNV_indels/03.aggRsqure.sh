@@ -7,6 +7,6 @@ OUT=$3
 /../aggRSquare/release-build/aggRSquare \
     -v $TRUTH_VCF \
     -i $TEST_VCF \
-	--bins /../bin_used.txt \
-	--imputationFormat GT \
+    --bins /../bin_used.txt \
+    --imputationFormat GT \
     -o $OUT
