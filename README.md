@@ -16,13 +16,13 @@ Pipeline Overview:
 [PLINK 1.9](https://www.cog-genomics.org/plink/1.9) <br>
 
 # Build imputation panel <br>
-  1.	[Remove_related_samples](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/f1f555d145959f1ec4505cc48e1cb0e5fd262614/remove_related_samples) <br>
+  1.	[Remove_related_samples](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/remove_related_samples) <br>
   2.	Panel_building <br>
-      a.	[ADSP-Short-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/4e8553b194b417d1f173e7e1e237cd93618ed9d0/panel_building/ADSP-Short-Var)<br>
-    	b.	[ADSP-All-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/4e8553b194b417d1f173e7e1e237cd93618ed9d0/panel_building/ADSP-All-Var) <br>
+      a.	[ADSP-Short-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-Short-Var)<br>
+    	b.	[ADSP-All-Var](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/panel_building/ADSP-All-Var) <br>
 
 # Analysis <br>
-  1.	[Imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/imputation) <br>
-  2.	[Meta-imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/meta-imputation) <br>
-  3.	[WGS validation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/WGS%20validation) <br>
-  4.	[Single variant association test](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/06945fbe22f1a1939a5014f5b1a60596c6d4dbb4/single%20variant%20association%20test) <br>
+  1.	[Imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/imputation) <br>
+  2.	[Meta-imputation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/meta-imputation) <br>
+  3.	[WGS validation](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/WGS%20validation) <br>
+  4.	[Single variant association test](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/ce812fbfcaa5e8e900268f10505edfea39aec10e/single%20variant%20association%20test) <br>
