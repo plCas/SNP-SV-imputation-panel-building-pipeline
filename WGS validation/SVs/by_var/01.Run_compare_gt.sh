@@ -8,6 +8,6 @@ CHUNK_LENGTH=1000
 MODE=$1 # 0 : genotype = 0, 1, 2; 1 : genotyp = 0, 1
 OUTPREFIX=/../WGS_validation/SV_validation/by_var/res/accuracy_mode$MODE.txt
 
-SCRIPT=/../01.compare_gt.py
+SCRIPT=/../compare_gt.py
 
 python3 $SCRIPT $FILE_WGS $FILE_IMP $OUTPREFIX $NCORE $CHUNK_LENGTH $MODE
