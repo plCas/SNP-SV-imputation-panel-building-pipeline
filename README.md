@@ -16,7 +16,7 @@ GENESIS
 Plink 1.9
 
 # Build imputation panel
-  1.	Remove_related_samples
+  1.	Remove_related_samples [a relative link](https://github.com/plCas/SNP-SV-imputation-panel-building-pipeline/tree/f1f555d145959f1ec4505cc48e1cb0e5fd262614/remove_related_samples)
   2.	Panel_building
       a.	ADSP-Short-Var
     	b.	ADSP-All-Var
