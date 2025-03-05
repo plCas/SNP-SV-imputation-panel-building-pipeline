@@ -12,7 +12,7 @@
 [MetaMinimac2 v 1.0.0](https://github.com/yukt/MetaMinimac2) <br>
 [aggRsquare](https://github.com/yukt/aggRSquare) <br>
 [SHAPEIT4 v 4.2.2](https://github.com/odelaneau/shapeit4)<br>
-[ruth](https://github.com/statgen/ruth)<br>
+[RUTH](https://github.com/statgen/ruth)<br>
 [GENESIS](https://github.com/UW-GAC/GENESIS/tree/devel) <br>
 [PLINK 1.9](https://www.cog-genomics.org/plink/1.9) <br>
 
