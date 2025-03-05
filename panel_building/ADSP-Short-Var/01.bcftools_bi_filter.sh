@@ -13,7 +13,7 @@ OUT=/../filtered_bi
 mkdir -p $OUT
 
 bcftools view  --threads 2 -S $SAMPLE_LIST -f PASS -i 'VFLAGS_one_subgroup=0 && (ABHet_one_subgroup > 0.25 && ABHet_one_subgroup < 0.75)' $VCF \
-    | bcftools view -i 'AC >= 5 && AN >= $SAMPLE_NUM*2*0.9' \
+    | bcftools view -i "AC >= 5 && AN >= $SAMPLE_NUM*2*0.9" \
     | $ruth --vcf - --evec $PC --field GT --lambda 0 --lrt-em --seed 12345 --out - \
     | bcftools annotate --threads 2 -x 'FORMAT' \
     | bcftools view  --threads 2 -i 'HWE_SLP_I > -4 && HWE_SLP_I < 4' -Oz -o $OUT/chr$CHR.bi.vcf.gz
