@@ -2,9 +2,9 @@ library(dplyr)
 library(tidyr)
 
 #### input files ####
-file_bed_wgs = "/qnap-wlee/wanpingleelab/chengp/imputation/imputation_panel_12.02.24/WGS_validation/SV_validation/by_var/bed_files/all_SV_wgs.bed"
-file_bed_imp = "/qnap-wlee/wanpingleelab/chengp/imputation/imputation_panel_12.02.24/WGS_validation/SV_validation/by_var/bed_files/all_SV_imp.bed"
-OUTDIR="/qnap-wlee/wanpingleelab/chengp/imputation/imputation_panel_12.02.24/WGS_validation/SV_validation/by_var/bed_files"
+file_bed_wgs = "/../by_var/bed_files/all_SV_wgs.bed"
+file_bed_imp = "/../by_var/bed_files/all_SV_imp.bed"
+OUTDIR="/../by_var/bed_files"
 
 #### main function ####
 print("read wgs bed")
